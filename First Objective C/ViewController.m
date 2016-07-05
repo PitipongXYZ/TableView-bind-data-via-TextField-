@@ -40,16 +40,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     myData = [[NSMutableArray alloc]initWithObjects:@"Pitipong watawut",nil];
-
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 #pragma mark - Table View Data source
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:
